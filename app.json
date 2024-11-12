@@ -1,13 +1,13 @@
 {
   "expo": {
-    "name": "FaturaApp_android",
-    "slug": "FaturaApp_android",
+    "name": "FaturaApp",
+    "slug": "faturaApp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logo2.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/logo2.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -15,13 +15,19 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.tales.faturaapp",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo2.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/logo2.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "1b99c6af-18fa-4f51-b6f4-8096f400a815"
+      }
     }
   }
 }
